@@ -3,13 +3,21 @@ using namespace std;
 
 int main(){
 
-int a,b,c,d;
-float e;
-cout<<"a=7+5"<<"\n";
-cout<<"b=7+(-5)"<<"\n";
-cout<<"c=7*5"<<"\n";
-cout<<"d=5%7"<<"\n";
-cout<<"e=7/5"<<"\n";
+int a=7;
+int b=5;
+int sum =a+b;
+int product =a*b;
+int difference =a-b;
+int quotient =a/b;	
+
+cout<<"a is 7"<<endl;
+cout<<"b is 5"<<endl;
+
+cout<<"Their sum is"<<sum<<endl;
+cout<<"Their product is "<<product<<endl;
+cout<<"Their difference is "<<difference<<endl;
+cout<<"a divided by b is "<<quotient<<endl;
+
 return 0;
 }
 
